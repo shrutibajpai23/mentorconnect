@@ -1,0 +1,164 @@
+.navbar {
+    background: linear-gradient(90deg, #6e53cc, #4a90e2);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #e0e0e0;
+}
+
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+.description {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.description h2 {
+    font-size: 28px;
+    color: #4a90e2;
+}
+
+.description p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.description ol {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.description img {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(62deg, #967bd9 0%, #deb8ff 100%);
+    padding: 15px 50px;
+}
+
+header.navbar .logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.navlist ul {
+    list-style: none;
+}
+
+.navlist ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navlist ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navlist ul li a:hover {
+    color: #ddd;
+}
+
+.description {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.flowchart {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.flowchart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flowchart-step {
+    padding: 15px 25px;
+    margin: 15px 0;
+    border: 2px solid #6366f1;
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    font-weight: bold;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.flowchart-step:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.2);
+}
+
+.arrow {
+    font-size: 24px;
+    color: #6366f1;
+}
+
+.ai-solution {
+    padding: 50px;
+    background-color: #f9f9ff;
+}
+
+.ai-solution h2 {
+    text-align: center;
+    color: #6366f1;
+}
+
+.ai-solution p ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
